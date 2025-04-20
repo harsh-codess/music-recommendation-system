@@ -46,7 +46,7 @@ A smart music recommendation engine that uses Natural Language Processing (NLP) 
 
 ### 1. Clone the repository
 ```bash
-[git clone https://github.com/yourusername/music-recommendation-system.git
-cd music-recommendation-system](https://github.com/harsh-codess/music-recommendation-system.git)
+clone https://github.com/yourusername/music-recommendation-system.git
+cd
 
 
