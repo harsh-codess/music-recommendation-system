@@ -1,51 +1,52 @@
+# 🎵 Music Recommendation System
 
-# Emotion-based music recommendation system
+A smart music recommendation engine that uses Natural Language Processing (NLP) and Machine Learning to recommend similar songs based on song metadata or user input. Built for scalability and ready for integration with APIs like Spotify.
 
-This web-based app written in Python will first scan your current emotion with the help of OpenCV & then crop the image of your face from the entire frame once the cropped image is ready it will give this image to a trained MACHINE LEARNING model to predict the emotion of the cropped image. This will happen 30-40 times in 2-3 seconds, now once we have a list of emotions (containing duplicate elements) with us it will first sort the list based on frequency & remove the duplicates. After performing all the above steps we will have a list containing the user's emotions in sorted order, Now we have to iterate over the list & recommend songs based on emotions in the list.
+---
 
+## 🚀 Features
 
-## Installation & Run
+- 🔍 Content-based recommendations using song title, genre, lyrics, etc.
+- 🧠 NLP vectorization with TF-IDF / Word2Vec / BERT
+- ⚡ Fast and efficient similarity matching (e.g., cosine similarity)
+- 🖥️ Optional web interface using Flask or Streamlit
+- 🔧 Easily extendable for collaborative filtering, deep learning models, or API integration
 
-Create a new project in Pycharm and add the above files. After that open the terminal and run the following command. This will install all the modules needed to run this app. 
+---
 
+## 🧠 Tech Stack
+
+- **Python 3.x**
+- **Pandas, NumPy** – Data preprocessing
+- **Scikit-learn / TensorFlow / Gensim** – ML & NLP modeling
+- **TF-IDF / Word2Vec / BERT** – Text vectorization
+- **Flask / Streamlit** – Web app (optional)
+- **Jupyter Notebook** – Prototyping and experiments
+
+---
+
+## ⚙️ How It Works
+
+1. **Data Preprocessing**  
+   - Clean text (remove stopwords, lowercase, lemmatize)
+   - Prepare metadata (title, artist, genre, lyrics)
+
+2. **Vectorization**  
+   - Convert text to vectors using TF-IDF / Word2Vec / BERT
+
+3. **Similarity Calculation**  
+   - Compute similarity matrix using cosine similarity or ANN search
+
+4. **Recommendation Output**  
+   - Given a song title, return top N most similar songs
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
 ```bash
-  pip install -r requirements.txt
-```
+git clone https://github.com/yourusername/music-recommendation-system.git
+cd music-recommendation-system
 
-To run the app, type the following command in the terminal. 
-```bash
-  streamlit run app.py
-```
-
-## Libraries
-
-- Streamlit
-- Opencv
-- Numpy
-- Pandas
-- Tensorflow
-- Keras
-
-
-
-
-
-## Demo video
-
- [Emotion-based music recommendation system](
-
-https://github.com/Hiralsathwara/Emotion-based-music-recommendation-system/assets/127468119/5b2626f6-68fe-499c-9c3e-56b37f7c5d26
-
-)
- 
-
-## Authors
-
-- [HIRAL SATHWARA](https://github.com/Hiralsathwara)
-
-
-
-## Support
-
-For support,hiral sathwara (https://www.linkedin.com/in/hiral-sathwara-873561269/)
 
