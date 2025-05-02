@@ -1,6 +1,6 @@
 # 🎵 Music Recommendation System
 
-A smart music recommendation engine that uses Natural Language Processing (NLP) and Machine Learning to recommend similar songs based on song metadata or user input. Built for scalability and ready for integration with APIs like Spotify..
+A smart music recommendation engine that uses Natural Language Processing (NLP) and Machine Learning to recommend similar songs based on song metadata or user input. Built for scalability and ready for integration with APIs like Spotify.
 
 ---
 
